@@ -38,3 +38,12 @@ def predict():
         return response 
     
 def parseImage(imgData):
+# parse canvas bytes and save as output.png
+    imgstr = re.search(b'base64,(.*)', imgData).group(1)
+    with open('output.png','wb') as output:
+        output.write(base64.decodebytes(imgstr))
+
+if __name__ == '__main__':
+    app.debug = True
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
