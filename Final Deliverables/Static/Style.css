@@ -1,1 +1,102 @@
+#clear_button{
+  margin-left: 20px;
+  font-weight: bold;
+  color: rgb(14, 137, 195);
+}
 
+#confidence{
+  font-family: cursive;
+  margin-top: 7.5%;
+}
+
+#content{
+  margin: 0 auto;
+  padding: 2% 15%;
+  padding-bottom: 0;
+}
+
+.welcome{
+   text-align: center;
+   position: relative;
+   color: rgb(0, 32, 112);
+   background-color: rgb(106, 173, 199);
+   padding-top: 1%;
+   padding-bottom: 1%;
+   font-weight: bold;
+   font-family: cursive;
+}
+
+
+#predict_button{
+  margin-right: 20px;
+  color: rgb(53, 75, 150);
+  font-weight: bold;
+}
+
+#prediction_heading{
+  font-family: cursive;
+  margin-top: 7.5%;
+}
+
+#result{
+  font-size: 5rem;
+}
+
+#title{
+  padding: 1.5% 15%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 10px;
+    /* -webkit-appearance: none; */
+    background: #eee;
+    border: 1px solid #888;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons_div{
+  margin-bottom: 30px;
+  margin-right: 80px;
+}
+
+.heading{
+  font-family:cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  display: inline;
+}
+
+.leftside{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2%;
+  
+}
+
+#frame{
+  margin-right: 10%;
+}
+
+.predicted_answer{
+  text-align: center;
+  margin: 0 auto;
+  padding: 3% 5%;
+  padding-top: 0;
+  
+}
+
+h1{
+  text-align: center;
+  color: aliceblue;
+  padding: 100px 50px 65px 100px;
+}
+
+@media (min-width: 720px) {
+  .leftside{
+    padding-left: 10%;
+  }
+}
